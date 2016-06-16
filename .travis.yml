@@ -8,3 +8,6 @@ install:
     - pip install -r requirements.txt
 script:
     - pep8 .
+
+notifications:
+  slack: sanjaykim:q3y9iCgozw64iVDjyu4izncv
